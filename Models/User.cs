@@ -1,8 +1,10 @@
+namespace Models;
+
 public class User
 {
     public int Id { get; set; }
     public string Name { get; set; } = null!;
-    // Add other properties as needed
+
 }
 
 public class Seller : User
